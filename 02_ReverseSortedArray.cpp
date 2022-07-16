@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int binary_search(vector<int> &v, int element){
+int binary_search_reverse_sorted(vector<int> &v, int element){
 	int lo=v.size()-1, hi=0;
   
   	while(hi<=lo){
@@ -33,7 +33,7 @@ int main() {
   	int to_find;
   	cin>>to_find;
   
-  	cout<<binary_search(v,to_find)<<endl;
+  	cout<<binary_search_reverse_sorted(v,to_find)<<endl;
   
   	return 0;
 }

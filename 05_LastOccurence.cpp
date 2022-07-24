@@ -39,5 +39,5 @@ int main() {
   int last_occur=bs_last(v, to_find);
   cout<<last_occur<<endl;
   
-  	return 0;
+  return 0;
 }
